@@ -1,9 +1,5 @@
 #include <iostream>
 #include<vector>
-
-
-
-
 using namespace std;
 void MaxActivities(int a[],int s[],int f[],int n){
     vector <int> my_vector={a[0]};
@@ -27,4 +23,7 @@ int main() {
 
     MaxActivities(a,s, f, n);
     return 0;
+
+
+
 }
